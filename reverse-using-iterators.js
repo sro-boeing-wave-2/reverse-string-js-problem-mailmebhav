@@ -2,8 +2,7 @@
 const reverse = (revstr) => {
   let reversestr = '';
   const len = revstr.length;
-  let i;
-  for (i = len - 1; i >= 0; i -= 1) {
+  for (let i = len - 1; i >= 0; i -= 1) {
     reversestr += revstr[i];
   }
   return reversestr;
